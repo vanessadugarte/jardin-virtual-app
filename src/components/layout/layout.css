@@ -1,0 +1,16 @@
+.layoutContainer{
+    display:flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+.header_wrapper{
+    background-color:#88D3B8;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+.mainContainer{
+    flex:1;
+}
