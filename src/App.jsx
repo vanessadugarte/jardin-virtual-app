@@ -1,6 +1,7 @@
 import './App.css'
 import Brand from "./components/Brand.jsx";
 import NavBar from "./components/navbar/NavBar.jsx";
+import ItemListContainer from "./components/itemListContainer/ItemListContainer.jsx";
 
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
                 <Brand/>
                 <NavBar/>
             </div>
+            <ItemListContainer greeting={"Greeting itemlistcontainer"}/>
         </div>
                 );
                 }
