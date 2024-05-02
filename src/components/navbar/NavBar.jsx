@@ -1,5 +1,5 @@
 import React from 'react';
-import CategoryList from "../CategoryList.jsx";
+import CategoryList from "../categoryList/CategoryList.jsx"
 import CartWidget from "../CartWidget.jsx";
 import "./navbar.css"
 

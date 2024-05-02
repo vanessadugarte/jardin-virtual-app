@@ -1,9 +1,9 @@
 import React from 'react';
-
+import "./categoryList.css"
 const CategoryList = () => {
     return (
         <nav>
-            <ul>
+            <ul className="categories">
                 <li>
                     <a href="#">Plantas</a>
                 </li>
