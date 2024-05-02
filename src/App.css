@@ -1,0 +1,15 @@
+body{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    font-size: 1rem;
+    color: #808080;
+}
+
+.header__wrapper{
+background-color:#88D3B8;
+    display:flex;
+    justify-content: space-between;
+    padding: 1rem;
+}

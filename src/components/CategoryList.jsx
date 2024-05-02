@@ -2,7 +2,7 @@ import React from 'react';
 
 const CategoryList = () => {
     return (
-        <div>
+        <nav>
             <ul>
                 <li>
                     <a href="#">Plantas</a>
@@ -14,7 +14,7 @@ const CategoryList = () => {
                     <a href="#">Accesorios</a>
                 </li>
             </ul>
-        </div>
+        </nav>
     );
 };
 

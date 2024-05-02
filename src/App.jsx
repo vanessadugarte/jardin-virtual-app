@@ -1,13 +1,17 @@
 import './App.css'
+import Brand from "./components/Brand.jsx";
+import NavBar from "./components/NavBar.jsx";
 
 function App() {
 
-  return (
-      <div>
-        My app
-      </div>
+    return (
+        <div>
+            <div className="header__wrapper">
+                <Brand className="prueba"/>
+                <NavBar className="prueba"/>
+            </div>
+        </div>
+                );
+                }
 
-  )
-}
-
-export default App
+                export default App
