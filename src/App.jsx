@@ -1,14 +1,15 @@
 import './App.css'
 import Brand from "./components/Brand.jsx";
-import NavBar from "./components/NavBar.jsx";
+import NavBar from "./components/navbar/NavBar.jsx";
+
 
 function App() {
 
     return (
         <div>
             <div className="header__wrapper">
-                <Brand className="prueba"/>
-                <NavBar className="prueba"/>
+                <Brand/>
+                <NavBar/>
             </div>
         </div>
                 );

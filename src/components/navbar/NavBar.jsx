@@ -1,6 +1,7 @@
 import React from 'react';
-import CategoryList from "./CategoryList.jsx";
-import CartWidget from "./CartWidget.jsx";
+import CategoryList from "../CategoryList.jsx";
+import CartWidget from "../CartWidget.jsx";
+import "./navbar.css"
 
 const NavBar = () => {
     return (
