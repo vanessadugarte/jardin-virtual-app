@@ -1,0 +1,7 @@
+.cartContainer > span{
+    font-size: 1rem;
+    color:white;
+    background-color: tomato;
+    border-radius:50% ;
+    padding: 15px;
+}
