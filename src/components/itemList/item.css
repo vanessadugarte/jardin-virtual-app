@@ -1,0 +1,19 @@
+.itemContainer{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    border: 0.5px solid #000;
+}
+.itemImg{
+    width: 250px;
+}
+
+.itemDescription{
+    max-width: 250px;
+    text-align: center;
+}
+
+.itemPrice{
+    font-size: 1.6rem;
+}
+
