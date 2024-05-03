@@ -20,7 +20,7 @@ const products = [
         id: 3,
         name: "Monstera Deliciosa",
         price: 9990,
-        image: "https://media.admagazine.com/photos/61f0e1a0089751617cd2fe3e/1:1/w_1919,h_1919,c_limit/bugambilia.jpg",
+        image: "https://www.kenaz.cl/cdn/shop/products/ficus-benjamina-351341.jpg",
         description: "También llamada Costilla de Adán, es una planta tropical conocida por sus grandes hojas perforadas y su fácil cuidado. Es una opción popular para decorar interiores gracias a su exuberante follaje",
         stock: 7,
     },
@@ -36,7 +36,7 @@ const products = [
         id: 5,
         name: "Cala",
         price: 4990,
-        image: "https://media.admagazine.com/photos/61f0e1a0089751617cd2fe3e/1:1/w_1919,h_1919,c_limit/bugambilia.jpg",
+        image: "https://mekero.cl/cdn/shop/files/PCA002cerca-min_1520x.png?v=1691981708",
         description: "La Cala burdeo es una variante vibrante y llamativa, añade un toque de elegancia y color a cualquier" +
             " espacio. Perfecta para interiores iluminados y protegidos del sol directo. ¡Embellece tu hogar con su belleza única!",
         stock: 12,
