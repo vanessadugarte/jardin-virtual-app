@@ -6,15 +6,18 @@ import Item from "../itemList/Item.jsx";
 import useProducts from "../../hooks/useProducts.js";
 
 const ItemListContainer = ({greeting}) => {
-    const {isLoading, products} = useProducts();
+    const {isLoading: productsLoading, products} = useProducts();
+    const {product, isLoading: product4Loading} = useProducts(4);
+if (productsLoading) return <h1>cargando...</h1>
 
-if (isLoading) return <h1>cargando...</h1>
-
+    console.log({product4Loading, product})
     return (
+        <div className="greetingFather">
         <div className="greeting">
           <h1>{greeting}</h1>
             <ItemList products={products}/>
         </div>
+            </div>
     );
 };
 

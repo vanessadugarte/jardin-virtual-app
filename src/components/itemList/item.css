@@ -1,15 +1,28 @@
+.itemListContainer{
+    display:flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    gap:15px;
+}
+
 .itemContainer{
     display:flex;
     flex-direction: column;
     align-items: center;
     border: 0.5px solid #000;
+    justify-content: space-around;
+    border-radius: 5px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    margin-top: 15px;
 }
+
 .itemImg{
     width: 250px;
 }
 
 .itemDescription{
-    max-width: 250px;
+    max-width: 230px;
     text-align: center;
 }
 
